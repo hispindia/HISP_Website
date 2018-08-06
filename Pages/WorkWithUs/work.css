@@ -1,0 +1,92 @@
+/**{
+    color: white;
+}*/
+/*Section1*/
+#section1 .container-fluid{
+    background: url('../../Images/Common_Photos/Featured_WorkForUs.png') 100%; 
+     background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    color:white;
+}
+
+#section1 .container{
+padding-bottom: 5%;
+padding-top:5%;
+}
+
+#section1 h1{
+    font-size:2rem;
+}
+#section1 p{
+    margin: 0;
+    font-size:1.25rem;
+}
+
+/*Section2*/
+#section2 .container-fluid{
+    background: #013334;
+
+}
+#section2 .container{
+    padding-bottom: 10%;
+    padding-top: 10%;
+}
+.header h1{
+    font-size:2rem;
+    font-weight: 400;
+}
+.header p{
+font-weight:400;
+font-size: 1rem;
+}
+/*Section3*/
+
+.jumbotron{
+background: url('../../Images/Common_Photos/consultancy.png') 100%;
+  background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+#section3 .color{
+background-color: #115d59; 
+color:white;
+}
+
+
+#section3 h1{
+    font-size: 2.5rem;
+    font-weight: 400px;
+    margin: 5% 2%;
+}
+
+#section3 p{
+    font-size:1.0rem;
+    font-weight: 400;
+    margin: 2%;
+}
+
+#section3 .btn{
+margin: 5% 2%;
+border-radius: 25px;
+}
+
+/*Card Properties*/
+.card{
+	margin-bottom: 5%;
+	cursor: pointer;
+}
+.card-img-top{
+	width: 100%;
+	height: 250px;
+}
+.card-title{
+	font-size: 1rem;
+	text-align: center;
+	font-weight: 700;
+	color: #065759;
+}
+.card-text{
+	text-align: center;
+}
