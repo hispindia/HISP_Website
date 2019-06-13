@@ -34,7 +34,7 @@
                         data-target="#navbar2">
                         <span><i class="fa fa-bars" aria-hidden="true"></i></span>
                     </button>
-                    <a href="#" class="navbar-brand text-center"><span id="brandp1">HISP</span> <span id="brandp2">INDIA</span></a>
+					<img src="./Images/Home/logo.png" alt="HISP INDIA" width="180" height="50">
                     <div class="navbar-collapse collapse" id="navbar2">
                         <ul class="navbar-nav mr-auto">
                             <li class="nav-item active">
@@ -70,20 +70,33 @@
                             <li class="nav-item">
                                 <a class="nav-link" href="./Pages/About_Us/About_Us.html" >About Us</a>
                             </li>
+                            
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="" id="dropdown02" data-toggle="dropdown"
+                                    aria-haspopup="true" aria-expanded="false">Products & Services</a>
+                                <div class="dropdown-menu" aria-labelledby="dropdown01">
+                                    <a class="dropdown-item" href="./Pages/Products/Products.html">Products</a>
+                                    <a class="dropdown-item" href="./Pages/Services/Services.html">Services</a> 
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="" id="dropdown01" data-toggle="dropdown"
+                                    aria-haspopup="true" aria-expanded="false">Our Work</a>
+								
+                                <div class="dropdown-menu" aria-labelledby="dropdown01">
+                                    <a class="dropdown-item" href="./Pages/By%20Region/By%20Region.html">By Region</a>
+                                    <a class="dropdown-item" href="./Pages/ByThematicAreas/bythematicareas.html">By Thematic Areas</a> 
+									<a class="dropdown-item" href="./Pages/Academy/Academy.html">Academies</a> 
+                                </div>
+                            </li>  
                             <li class="nav-item">
-                                <a class="nav-link" href="./Pages/Products/products.html">Products</a>
+                                <a class="nav-link" href="./Pages/Hisp%20team/hisp_team.html">Our Team</a>
+                            </li>							
+                            <li class="nav-item">
+                                <a class="nav-link" href="./Pages/Events/Events.html">Events</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="./Pages/Services/services.html">Services</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="./Pages/projects/projects.html">Projects</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="./Pages/Hisp team/hisp_team.html">Our Team</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="./Pages/Academy/Academy.html">Academies</a>
+                                <a class="nav-link" href="./Pages/Research/research.html">Research & Publications</a>
                             </li>
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="" id="dropdown01" data-toggle="dropdown"
@@ -91,14 +104,10 @@
                                 <div class="dropdown-menu" aria-labelledby="dropdown01">
                                     <a class="dropdown-item" href="./Pages/clients/clients.html">Clients</a>
                                     <a class="dropdown-item" href="./Pages/WorkWithUs/workWithUs.html">Work With Us</a>
-                                    <a class="dropdown-item" href="./Pages/Govern/Governing Council.html">Governing
-                                        Council</a>
-                                    <a class="dropdown-item" href="./Pages/Case-study/Case_study.html">Case Study</a>
+									<a class="dropdown-item" href="./Pages/Gallery/Gallery.html">Gallery</a>
                                 </div>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="./Pages/Research/research.html">Research & Publications</a>
-                            </li>
+                            
                             <li class="nav-item">
                                 <a class="nav-link" href="./Pages/Contact_US/contactus.html">Contact Us</a>
                             </li>
@@ -116,39 +125,40 @@
     <!--NavBar-->
 
     <!--First Section-->
-    <section id="section1">
-        <div class="jumbotron jumbotron-fluid" style="margin:0;">
-            <div>
-                <div class="container-fluid">
-                    <div class="container">
-                        <div class="row align-items-center">
-                            <div class="col-xl-6 col-lg-6  col-md-6 col-sm-6 ">
-                                <div class="row justify-content-center row_color">
-                                    <h1 class="display-4">HISP India strengthens the design, development, and
-                                        implementation of integrated, free
-                                        and open source based public health information systems.</h1>
-                                    <h6 class="lead">Our Solutions are based on </br>- DHIS2 </br>- OpenMRS </br> -
-                                        iHRIS</h6>
-                                    <button type="button" onclick="window.open('./Pages/WorkWithUs/workWithUs.html')"
-                                        class="btn btn-outline-secondary">Work With Us</button>
-                                    <button type="button" onclick="window.open('./Pages/About_Us/About_Us.html')" class="btn btn-outline-secondary">Learn
-                                        More</button>
-                                </div>
-                            </div>
-                            <!--<div class="col-xl-7 col-lg-7  col-md-8 col-sm-12 display-4"></div>-->
-                        </div>
-                    </div>
+    <title></title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+.mySlides {display:none}
+.w3-left, .w3-right, .w3-badge {cursor:pointer}
+.w3-badge {height:13px;width:13px;padding:0}
+</style>
+<body>
 
-                </div>
-            </div>
-        </div>
-    </section>
+
+
+<div style="width:100%">
+  <a href="./Pages/AMR1/AMR1.html"><img class="mySlides" height="400" src=".\Images\Home\banner1.png" style="width:100%"></a>
+  <a href="./Pages/Immunization/Immun.html"><img class="mySlides" height="400" src=".\Images\Home\banner2.png" style="width:100%"></a>
+  <a class="prev1" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next1" onclick="plusSlides(1)">&#10095;</a>
+</div>
+
+    
 
 
 
     <!--Second Section-->
     <section id="section2">
+	
         <div class="container-fluid" style="background:#006766">
+		 <div style="width:100%; padding-top:1%;">
+		<a href="./Pages/Events/Events.html"><p class = "events" style="width:100%;background:#006766; color:#F0670F  ;font-size:20px; margin:0">Previous Events</p> 
+		<p class = "events" style="width:100%;background:#006766; color:#F0670F  ;font-size:20px;  margin:0">Upcoming Events</p></a>
+		</div>
+		
+		
+		
             <div class="container">
                 <h1 class="display-4" style="color:white; font-size:18px; font-weight: bold; padding:0 0 2% 0">ABOUT
                     HISP INDIA</h1>
@@ -176,6 +186,59 @@
         </div>
     </section>
 
+<script>
+
+//static slide
+var staticSlideIndex = 1;
+staticShowSlides(staticSlideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  staticShowSlides(staticSlideIndex += n);
+}
+
+function staticShowSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  if (n > slides.length) {staticSlideIndex = 1} 
+  if (n < 1) {staticSlideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none"; 
+  }
+  slides[staticSlideIndex-1].style.display = "block"; 
+}
+
+//dynamic slide
+var slideIndex = 0;
+var slideIndex1 = 0;
+carousel();
+eventLoop();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none"; 
+  }
+  slideIndex++;
+  if (slideIndex > x.length) {slideIndex = 1} 
+  x[slideIndex-1].style.display = "block"; 
+  setTimeout(carousel, 5000); // Change image every 5 seconds
+}
+function eventLoop() {
+  var i;
+  var x = document.getElementsByClassName("events");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none"; 
+  }
+  slideIndex1++;
+  if (slideIndex1 > x.length) {slideIndex1 = 1} 
+  x[slideIndex1-1].style.display = "block"; 
+  setTimeout(eventLoop, 2000); // Change image every 5 seconds
+}
+
+
+</script>
 
     <!--Third section -->
     <section id="section3">
@@ -228,7 +291,7 @@
                     <div class="col-md-6 col-lg-4">
                         <div class="card">
                             <div class="card-block text-center">
-                                <img class="rounded-circle" alt="DHIS2 Aggregate" src="./Images/Common_Photos/dhis2_aggregate.png"
+                                <img class="rounded-circle" alt="DHIS2 Aggregate" src="./Images/Home/dhis2aggnew.jpg"
                                     data-holder-rendered="true">
                                 <h3 class="card-title">DHIS-2 Aggregate</h3>
                                 <p class="card-text">We have developed various applications for aggregated data such as
@@ -245,7 +308,7 @@
                     <div class="col-md-6 col-lg-4">
                         <div class="card">
                             <div class="card-block text-center">
-                                <img class="rounded-circle" alt="75x75" src="./Images/Common_Photos/dhis2_tracker.png"
+                                <img class="rounded-circle" alt="75x75" src="./Images/Home/dhis2trackernew.jpg"
                                     data-holder-rendered="true">
                                 <h3 class="card-title">DHIS-2 Tracker</h3>
                                 <p class="card-text">Responding to the current trends for data management related to
@@ -262,7 +325,7 @@
                     <div class="col-md-6 col-lg-4">
                         <div class="card">
                             <div class="card-block text-center">
-                                <img class="rounded-circle" alt="75x75" src="./Images/Common_Photos/dhis2_mobile.png"
+                                <img class="rounded-circle" alt="75x75" src="./Images/Home/dhis2mobilenew.jpg"
                                     data-holder-rendered="true">
                                 <h3 class="card-title">DHIS-2 Mobile</h3>
                                 <p class="card-text">DHIS2 Mobile serves as an extension of DHIS2 based solutions to
@@ -422,274 +485,8 @@
             </div>
         </section>
 
-        <!--Sixth Section-->
-        <section id="section6">
-            <div class="container-fluid" style="background:#0C6E6D">
-                <div class="container">
-                    <div class="row row-padded homepage-grid row-bordered p-t text-center">
-                        <div class="col-sm-3">
-                            <img class="rounded-circle" alt="75x75" src="./Images/Common_Photos/projects1.png"
-                                data-holder-rendered="true">
-                            <h5 class="display-4"><strong>123</strong></h5>
-                            <p class="lead">No of Projects Completed</p>
-                        </div>
-
-                        <div class="col-sm-3">
-                            <img class="rounded-circle" alt="75x75" src="./Images/Common_Photos/clients2.png"
-                                data-holder-rendered="true">
-                            <h5 class="display-4"><strong>38</strong></h5>
-                            <p class="lead">No. of Active Clients</p>
-                        </div>
-
-                        <div class="col-sm-3">
-                            <img class="rounded-circle" alt="75x75" src="./Images/Common_Photos/dhis2academy.png"
-                                data-holder-rendered="true">
-                            <h5 class="display-4"><strong>14</strong></h5>
-                            <p class="lead">No. of Academies Conducted</p>
-                        </div>
-                        <div class="col-sm-3">
-                            <img class="rounded-circle" alt="75x75" src="./Images/Common_Photos/clients1.png"
-                                data-holder-rendered="true">
-                            <h5 class="display-4"><strong>38</strong></h5>
-                            <p class="lead">No. of Active Clients Globally</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!--Seventh Section-->
-        <section id="section7">
-            <div class="container-fluid" style="background:#CCCCCC">
-                <div class="container text-muted">
-                    <h1 class="display-4">Latest Events</h1>
-                    <p class="lead Events">Some recent events organized by HISP India</p>
-                    <div class="row">
-                        <div class="col-md-6 col-lg-4">
-                            <div class="card">
-                                <img class="card-img-top img-fluid" src="./Images/Common_Photos/Ana_blog.png">
-                                <div class="card-block">
-                                    <h3 class="card-title">
-                                        “Successful people have a social responsibility to make the world a better
-                                        place and not just take from it.” By:- Carrie Underwood</h3>
-                                    <p class="card-text">Dr. Anna Basiston working as an Implementation researcher in
-                                        HISP India have proven this by her compassion towards building a better world
-                                        by running a ‘Daya Development Centre’ and providing easy access to a quality
-                                        conceptualized education through its digital learning technology.
-                                        </br>
-                                        DDC doesn’t only provide educational learning through technology, it helps that
-                                        Anna is dually a certified doctor, DDC provides free health check-ups to the
-                                        children in the Saradapali/Ghatikia slum areas in Bhubaneswar.
-                                        <a href="https://medium.com/@biswajit_47875/how-a-norwegian-doctor-brings-diwali-every-night-to-an-urban-slum-in-india-4038fb9e855e"
-                                            target="_blank">Visit Here</a>
-                                    </p>
-                                </div>
-                                <div class="card-footer">
-                                    <div class="media">
-                                        <div class="media-left" style="margin:5%">
-                                            <img src="./Images/Home/icon15.png" class="media-object">
-                                        </div>
-                                        <div class="media-body">
-                                            <p>DAYA, khandagiri, Bhubaneswar, Odisha, India.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-lg-4">
-                            <div class="card">
-                                <img class="card-img-top img-fluid" src="./Images/Common_Photos/Libya_Event.png">
-                                <div class="card-block">
-                                    <h3 class="card-title">
-                                        HISP India facilitated “Training of core team” and “Training of Trainers” on
-                                        (DHIS-2)-Libya</h3>
-                                    <p class="card-text">The trainings not only enriched the capacity of Health
-                                        information staff at facility and municipality level on data entry, analysis,
-                                        reporting of disease burden, and utilization data but also enhanced their
-                                        teaching and supervisory skills.
-                                        <br />
-                                        <br /> The master trainers through a cascade of
-                                        training sessions trained data entry operators of all the public health
-                                        facilities of Libya and which will monitor the timely availability of quality data on
-                                        daily, weekly, and monthly basis according to the agreed standard operating
-                                        procedures reflected in the DHIS2.
-                                        <button class="btn btn-default btn-sm m-0 p-1"><a class="p-1" style="text-decoration: none; color: black"
-                                                onMouseOver="this.style.color='white'" onMouseOut="this.style.color='black'"
-                                                href="./docs/Libya_Event.pdf" target="_blank">Document</a><i class="fa fa-file-pdf-o"></i></button>
-                                    </p>
-                                </div>
-                                <div class="card-footer">
-                                    <div class="media">
-                                        <div class="media-left" style="margin:5%">
-                                            <img src="./Images/Home/icon15.png" class="media-object">
-                                        </div>
-                                        <div class="media-body">
-                                            <p>
-                                                21<sup>st</sup> July 2018 - 2<sup>nd</sup> August 2018
-                                                <br>
-                                                Tripoli and Benghazi, Libya
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-md-6 col-lg-4">
-                            <div class="card">
-                                <img class="card-img-top img-fluid" src="./Images/Common_Photos/Immunization.png">
-                                <div class="card-block">
-                                    <h3 class="card-title">DHIS2 Immunization Academy Level 2</h3>
-                                    <p class="card-text">This Academy focused on the objectives of
-                                        immunization programs within the Asia/Pacific region, which includes the
-                                        features, standards and applications that have been designed using DHIS2 to
-                                        support immunization data collection, review, analysis and dissemination.
-                                        <br /><br />
-                                        It followed a unique structure, with training targeting both
-                                        program managers and technical experts who wish to learn about DHIS2 tools
-                                        and who will be supporting the process of configuring the DHIS2 apps which
-                                        will support the immunization program to perform these actions.
-                                        <br />
-                                        <br />
-                                    </p>
-                                </div>
-                                <div class="card-footer">
-                                    <div class="media">
-                                        <div class="media-left" style="margin:5%">
-                                            <img src="./Images/Home/icon15.png" class="media-object">
-                                        </div>
-                                        <div class="media-body justify-content-center">
-                                            <p>17<sup>th</sup>December,2018- 21<sup>st</sup> December 2018, Vietnam</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-lg-4">
-                            <div class="card">
-                                <img class="card-img-top img-fluid" src="./Images/Common_Photos/Book Release.JPG">
-                                <div class="card-block">
-                                    <h3 class="card-title">Book Launch By Sundeep Sahay</h3>
-                                    <p class="card-text">Discusses the challenges that exist in the design,
-                                        development, and implementation of
-                                        health information systems key problem areas, such as sub-adequate data and
-                                        problems
-                                        of inter-operability, are analyzed in detail extensive references and case
-                                        studies
-                                        illustrate the implementation of HISs in low- and middle-income countries.
-                                    <br/><br/><br/></p>
-                                </div>
-                                <div class="card-footer">
-                                    <div class="media">
-                                        <div class="media-left" style="margin:5%">
-                                            <img src="./Images/Home/icon15.png" class="media-object">
-                                        </div>
-                                        <div class="media-body">
-                                            <p>NHSRC Campus, Baba Gangnath Marg, Munrika, New Delhi 110067</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-lg-4">
-                            <div class="card">
-                                <img class="card-img-top img-fluid" src="./Images/Common_Photos/libya_pic.jpg">
-                                <div class="card-block">
-                                    <h3 class="card-title">DHIS2 Academy -Afghanistan</h3>
-                                    <p class="card-text">
-                                      HISP India with USAID Health Sector Resiliency (HSR) Project provided training on Data Warehouse/DHIS2 System covering all the three academies starting from 26th August 2018 till 19th September 2018 which included:
-                                      <br>
-                                      1.       Design and Customization Academy Level 1
-                                      <br>
-                                      2.       Tracker Academy Level 1
-                                      <br>
-                                      3.       Information Use Academy Level 1
-                                    </p>
-                                </div>
-                                <div class="card-footer">
-                                    <div class="media">
-                                        <div class="media-left" style="margin:5%">
-                                            <img src="./Images/Home/icon15.png" class="media-object">
-                                        </div>
-                                        <div class="media-body">
-                                            <p>MoPH Afghanistan</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-lg-4">
-                            <div class="card">
-                                <img class="card-img-top img-fluid" src="./Images/Common_Photos/diease-1.png">
-                                <div class="card-block">
-                                    <h3 class="card-title">DHIS2 Academy - Disease Surveillance Level 2</h3>
-                                    <p class="card-text"><br/>Surveillance of priority diseases and events remains key on
-                                        the GHS Agenda, so does the
-                                        need to have reliable information systems for prevention, detection and
-                                        responding.
-                                        The community is working closely with global, regional and national partners to
-                                        gather
-                                        requirements.<br/><br/>
-                                    </p>
-                                </div>
-                                <div class="card-footer">
-                                    <div class="media">
-                                        <div class="media-left" style="margin:5%">
-                                            <img src="./Images/Home/icon15.png" class="media-object">
-                                        </div>
-                                        <div class="media-body">
-                                            <p>The International Centre Goa, India</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-lg-4">
-                            <div class="card">
-                                <img class="card-img-top img-fluid" src="./Images/Common_Photos/IFIP.png">
-                                <div class="card-block">
-                                    <!-- <h3 class="card-title">The 15th International Conference on Social Implications of
-                                        computer in Developing Countries</h3> -->
-                                    <p class="card-text">The College of Information and Communication Technologies
-                                        (CoICT) of the University of
-                                        Dar es Salaam(UDSM), Tanzania in collaboration with the Department of
-                                        Informatics of the
-                                        University of Oslo, Norway are jointly hosting the International Federation for
-                                        Information
-                                        Processing (IFIP) Working Group 9.4 conference in May 1-3 2019 at Ramada Resort
-                                        Hotel,
-                                        Dar es Salaam, Tanzania.
-                                        <br/><a href="https://2019ifipwg94.net/" target="_blank">Visit
-                                            Here</a>
-                                        <br />
-
-                                    </p>
-                                    <!-- <a href="docs/IFIP_COP.pdf" target="_blank">Call For Papers</a>
-                                    <hr />
-                                    <a href="docs/IFIP_Poster.pdf" target="_blank">Poster</a> -->
-                                </div>
-                                <div class="card-footer">
-                                    <div class="media">
-                                        <div class="media-left" style="margin:5%">
-                                            <img src="./Images/Home/icon15.png" class="media-object">
-                                        </div>
-                                        <div class="media-body">
-                                            <p>Dar es Salaam, Tanzania(May 1st-3rd 2019)</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-
-                    </div>
-                    <div class="container text-center">
-                        <button type="button" class="btn btn-secondary ">View All Events</button>
-                    </div>
-                </div>
-            </div>
-        </section>
-
+       
+      
         <!--Eigth Section-->
         <section id="section8">
             <div class="container-fluid">
@@ -883,83 +680,14 @@
             </div>
         </section>
 
-        <!--Ninth Section-->
+        <section id="section9" > 
+	   <div>
+	   <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1ZPqo7xLHi_5cjeZifiCEoOf9fI_yYPdp" width="100%" height="480"></iframe>
+	   </div>
+		<div id="section9_emptyDiv">
+	   </div>
 
-        <section id="section9">
-            <div class="container-fluid">
-                <div class="container">
-                    <h1 class="display-4"> Gallery</h1>
-                    </br>
-                    <div class="row">
-                        <div class="col-lg-4 col-md-6">
-                            <a href="./Images/Home/home1.JPG" data-toggle="lightbox" data-gallery="example-gallery">
-                                <img src="./Images/Home/home1.JPG" class="img-fluid">
-                            </a>
-                        </div>
-                        <div class="col-lg-4 col-md-6">
-                            <a href="./Images/Home/home2.JPG" data-toggle="lightbox" data-gallery="example-gallery">
-                                <img src="./Images/Home/home2.JPG" class="img-fluid">
-                            </a></div>
-                        <div class="col-lg-4 col-md-6">
-                            <a href="./Images/Home/home3.JPG" data-toggle="lightbox" data-gallery="example-gallery">
-                                <img src="./Images/Home/home3.JPG" class="img-fluid">
-                            </a>
-                        </div>
-                        <div class="col-lg-4 col-md-6">
-                            <a href="./Images/Home/home4.JPG" data-toggle="lightbox" data-gallery="example-gallery">
-                                <img src="./Images/Home/home4.JPG" class="img-fluid">
-                            </a>
-                        </div>
-                        <div class="col-lg-4 col-md-6">
-                            <a href="./Images/Home/home5.JPG" data-toggle="lightbox" data-gallery="example-gallery">
-                                <img src="./Images/Home/home5.JPG" class="img-fluid">
-                            </a>
-                        </div>
-                        <div class="col-lg-4 col-md-6">
-                            <a href="./Images/Home/home6.JPG" data-toggle="lightbox" data-gallery="example-gallery">
-                                <img src="./Images/Home/home6.JPG" class="img-fluid">
-                            </a>
-                        </div>
-                        <div class="col-lg-4 col-md-6">
-                            <a href="./Images/Home/home7.JPG" data-toggle="lightbox" data-gallery="example-gallery">
-                                <img src="./Images/Home/home7.JPG" class="img-fluid">
-                            </a>
-                        </div>
-                        <div class="col-lg-4 col-md-6">
-                            <a href="./Images/Home/home8.JPG" data-toggle="lightbox" data-gallery="example-gallery">
-                                <img src="./Images/Home/home8.JPG" class="img-fluid">
-                            </a>
-                        </div>
-                        <div class="col-lg-4 col-md-6">
-                            <a href="./Images/Home/home10.JPG" data-toggle="lightbox" data-gallery="example-gallery">
-                                <img src="./Images/Home/home10.JPG" class="img-fluid">
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-
-        <!--Section10-->
-        <section id="section10">
-            <div class="container-fluid">
-                <div class="container">
-                    <h1 class="display-4">Our Clients</h1>
-                    <div class="row">
-                        <div class="col-lg-2 col-md-3 col-sm-6 imgContainer"><img src="./Images/Clients/CDC.png" alt=""></div>
-                        <div class="col-lg-2 col-md-3 col-sm-6 imgContainer"><img src="./Images/Clients/Greenstar.png"
-                                alt=""></div>
-                        <div class="col-lg-2 col-md-3 col-sm-6 imgContainer"><img src="./Images/Clients/Health Poverty Action.png"
-                                alt=""></div>
-                        <div class="col-lg-2 col-md-3 col-sm-6 imgContainer"><img src="./Images/Clients/i-hat.png" alt=""></div>
-                        <div class="col-lg-2 col-md-3 col-sm-6 imgContainer"><img src="./Images/Clients/IPPF.jpg" alt=""></div>
-                        <div class="col-lg-2 col-md-3 col-sm-6 imgContainer"><img src="./Images/Clients/MSF.png" alt=""></div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
+		</section>
 
 
         <!--Footer-->
@@ -972,27 +700,26 @@
                             <ul class="footer_links">
                                 <li><a href="./Pages/About_Us/About_Us.html">About HISP</a></li>
                                 <li><a href="./Pages/Hisp team/hisp_team.html">HISP Team</a></li>
-
                             </ul>
                         </div>
                         <div class="col-md-2 col_2">
                             <h4 class="display-4">SERVICES</h4>
                             <ul class="footer_links">
-                                <li><a href="./Pages/Services/services.html">Data Analytics</a></li>
-                                <li><a href="./Pages/Services/services.html">Integration Services</a></li>
-                                <li><a href="./Pages/Services/services.html">DHIS2 Academies</a></li>
-                                <li><a href="./Pages/Services/services.html">InService Training</a></li>
-                                <li><a href="./Pages/Services/services.html">Requirement and Evaluation Studies</a></li>
+                                <li><a href="./Pages/Services/Services.html">Data Analytics</a></li>
+                                <li><a href="./Pages/Services/Services.html">Integration Services</a></li>
+                                <li><a href="./Pages/Services/Services.html">DHIS2 Academies</a></li>
+                                <li><a href="./Pages/Services/Services.html">InService Training</a></li>
+                                <li><a href="./Pages/Services/Services.html">Requirement and Evaluation Studies</a></li>
                             </ul>
                         </div>
                         <div class="col-md-2 col_2">
                             <h4 class="display-4">PRODUCTS</h4>
                             <ul class="footer_links">
-                                <li><a href="./Pages/Products/products.html">DHIS-2 Aggregate</a></li>
-                                <li><a href="./Pages/Products/products.html">DHIS-2 Tracker</a></li>
-                                <li><a href="./Pages/Products/products.html">DHIS-2 Mobile</a></li>
-                                <li><a href="./Pages/Products/products.html">OpenMRS - Hospital</a></li>
-                                <li><a href="./Pages/Products/products.html">iHRIS</a></li>
+                                <li><a href="./Pages/Products/Products.html">DHIS-2 Aggregate</a></li>
+                                <li><a href="./Pages/Products/Products.html">DHIS-2 Tracker</a></li>
+                                <li><a href="./Pages/Products/Products.html">DHIS-2 Mobile</a></li>
+                                <li><a href="./Pages/Products/Products.html">OpenMRS - Hospital</a></li>
+                                <li><a href="./Pages/Products/Products.html">iHRIS</a></li>
                             </ul>
                         </div>
                         <div class="col-md-2 col_2">
@@ -1000,8 +727,8 @@
                             <ul class="footer_links">
                                 <li><a href="./Pages/clients/clients.html">Clients</a></li>
                                 <li><a href="./Pages/WorkWithUs/workWithUs.html">Work with Us</a></li>
-                                <li><a href="./Pages/Govern/Governing Council.html">Governing Council</a></li>
-                                <li><a href="./Pages/Case-study/Case_study.html">Case Study</a></li>
+                                <li><a href="./Pages/Gallery/Gallery.html">Gallery</a></li>
+                                
                             </ul>
                         </div>
                         <div class="col-md-4 col_2">
@@ -1028,7 +755,7 @@
                                         <img src="./Images/Home/icon17.png" alt="">
                                     </td>
                                     <td>
-                                        <p>0120-4322401</p>
+                                        <p>0120-4322401-05</p>
                                     </td>
                                 </tr>
                             </table>
@@ -1037,7 +764,8 @@
                                         alt="Contact us on Facebook"></a>
                                 <a href="https://www.linkedin.com/company/society-for-health-information-systems-project-hisp-india-/"
                                     target="_blank"><img src="./Images/Home/linkedin.png" alt="Contact us on Linkedin"></a>
-
+                                <br/><br/>
+									&nbsp;&nbsp;&nbsp;&nbsp;ISO 9001:2015 Certified
                             </p>
                         </div>
                         <div class="clearfix"> </div>

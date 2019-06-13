@@ -26,13 +26,13 @@
 background: #013334;
 }
 #section2 .container {
-	padding-bottom: 5%;
-	padding-top: 5%;
+	padding-bottom: 1%;
+	padding-top: 1%;
 	
 }
 #section2 .container .lead_color{
 	color: white;
-	padding-top:10%;
+	padding-top:1%;
 }
 .main_card{
 	width: 80%;
@@ -96,7 +96,7 @@ background: #013334;
 
 #section6 h1{
 	color:white;
-	font-size:1rem;
+	font-size:2rem;
 	padding-bottom:5%;
 	font-weight: 400;
 }
@@ -114,6 +114,44 @@ background: #013334;
 	font-size:2rem;
 	padding-bottom:5%;
 }
+
+/*section8*/
+#section8 .container-fluid{
+	background: #006766;
+}
+#section8 .container{
+	padding-top: 6%;
+	padding-bottom: 6%;
+        border-bottom: 1px solid white;
+}
+
+#section8 h1{
+	color:white;
+	font-size:2rem;
+	padding-bottom:5%;
+	font-weight: 400;
+}
+
+
+
+
+
+
+/*section10*/
+#section10 .container-fluid{
+	background: #006766;
+}
+#section10 .container{
+	padding-top: 6%;
+	padding-bottom: 6%;
+}
+#section10 h1{
+	color:white;
+	font-size:2rem;
+	padding-bottom:5%;
+}
+
+
 
 
 /*Card Properties*/

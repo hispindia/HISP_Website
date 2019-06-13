@@ -21,23 +21,67 @@ padding-top:8%;
     font-weight: 400;
 }
 
+  /*Section5*/
+
+    #section5 .container-fluid{
+        background: #006766;
+    }
+
+    #section5 .container{
+        padding-bottom:5%;
+        padding-top:5%;
+    }
+    #section5 img{
+        max-width: 100%;
+    }
+    .img_sec5{
+        display:flex;
+    }
+.img_sec55{
+    padding: 5%;
+    margin: auto;
+}
+#section5 h2{
+    font-size:2rem;
+    color:white;
+    font-weight: 400;
+}
+#section5 p{
+    font-size:1.1rem;
+    color:white;
+    text-align: justify;
+
+}
+
+
 /*Section2*/
 
 #section2 .container-fluid{
-    background: #006766;
+    background: #013334;
 }
 #section2 .container{
     padding-bottom:6%;
-    padding-top:6%;
+    padding-top:3%;
+
 }
 #section2 img{
-    width: 80px;
+    width: 100px;
 }
 #section2 h4{
-   padding: 3% 0;
+   padding-top: 1% 0;
     font-weight: 400;
     font-size:2rem;
     color:white;
+
+}
+
+.col-md-6 {
+text-align:center;
+}
+
+#ourApproach {
+width:100%;
+margin:auto;
 }
 #section2 p{
     font-size:1rem;
@@ -46,28 +90,7 @@ padding-top:8%;
 }
 
 
-/*Section3*/
-#section3 .container-fluid{
-    background: #013334;
-   
-}
 
-#section3 .container{
- color:white;
- padding-bottom: 5%;
- padding-top: 5%;
-}
-
-#section3 h1{
-    font-size:2rem;
-    font-weight: 400;
-    }
-
-    #section3 p{
-        font-size: 1rem;
-        font-weight: 400;
-        color:#718181;
-    }
 
     /*Section4*/
 
@@ -138,7 +161,7 @@ padding-top:8%;
 /*Section6*/
 
 #section6 .container-fluid{
-    background:  #C1C1C1;
+    background: #013334;
 }
 #section6 .content img{
     padding-left:10%;
@@ -154,13 +177,46 @@ padding-top:8%;
 #section6 h1{
     font-size:2rem;
     font-weight: 400;
-    color:#013334;
+    color:white;
     padding: 3% 10%;
 }
 #section6 p{
 font-size:1rem;
-color:#013334;
 font-weight: 400;
+color:white;
 padding: 0 10%;
 text-align: justify;
 }
+
+/*Section7*/
+
+    #section7 .container-fluid{
+        background: #006766;
+    }
+
+    #section7 .container{
+        padding-bottom:5%;
+        padding-top:5%;
+    }
+    #section7 img{
+        max-width: 100%;
+    }
+    .img_sec5{
+        display:flex;
+    }
+.img_sec55{
+    padding: 5%;
+    margin: auto;
+}
+#section7 h2{
+    font-size:2rem;
+    color: white;
+    font-weight: 400;
+}
+#section7 p{
+    font-size:1.1rem;
+    color:white;
+    text-align: justify;
+
+}
+

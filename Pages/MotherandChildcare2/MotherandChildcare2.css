@@ -1,0 +1,95 @@
+
+/*section1*/
+.jumbotron {
+    margin: 0;
+    background: url('../../Images/Common_Photos/projects2.png') 100%;
+     background-size: cover;
+    background-repeat: no-repeat;
+    /*background-position: 50% 50%;*/
+}
+
+#section1 h1{
+    color:white;
+    font-size: 2.5rem;
+}
+
+
+#section1 p{
+    color:white;
+    font-size:1rem;
+    font-weight:400;
+}
+
+
+/*Section2*/
+#section2{
+    background: #013334;
+    height: 400px;
+}
+#section2 .row{
+    padding: 8% 0;   
+color:white;
+}
+#section2 h3{
+    font-size: 2rem;
+    font-weight: 400;
+}
+#section2 p{
+    font-size: 1rem;
+    font-weight: 500;
+    color:white;
+}
+
+
+
+/*section3 for projects listing*/
+#section3 .container-fluid{
+    padding: 15px;
+        background: #013334;
+     /* background: url('../../Images/Common_Photos/projectback.png'); */
+  background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+   
+}
+#section3 .container{
+     border-bottom: 1px solid white; 
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+}
+
+#section4{
+    background: #013334;
+}
+
+#section3 h1{
+
+    padding: 15px 15px 15px 0;
+    font-size:1.75rem;
+    font-weight:400;
+    color:white;
+}
+
+.projects{
+    border: 1px solid grey;
+    border-radius:2px;
+    margin:5% 5% 5% 0;
+}
+
+.projects h3{
+    font-size: 1.15rem;
+    margin: 3%;
+    color:white;
+    font-weight: 400;
+}
+
+.projects p{
+    font-size: 1rem;
+    margin: 3%;
+    color:white;
+    font-weight:400;
+}
