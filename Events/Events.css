@@ -1,0 +1,48 @@
+/*section1*/
+
+#section1 .container-fluid{
+    background: url('../../Images/Events/home2_2.jpg') 100%; 
+      background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+#section1 .container{
+padding-bottom:8%;
+padding-top:8%;
+}
+#section1 h1{
+    font-size:3rem;
+    color:white;
+    font-weight: 400;
+}
+#section1 p{
+    font-size:1.25rem;
+    color:white;
+    font-weight: 400;
+}
+
+
+/*Section3*/
+
+#section3 .container-fluid{
+    background:  #013334;
+}
+
+#section3 h4{
+    font-size:2rem;
+    font-weight: 400;
+    color:#FFFFFF;
+    padding: 3% 0 0 3%;
+}
+
+#section3 .panel-body{
+    font-size:1rem;
+    color:#FFFFFF;
+    font-weight: 400;
+    padding: 0 5%;
+    text-align: justify;
+}
+
+
+
+    
